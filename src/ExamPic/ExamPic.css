@@ -1,0 +1,37 @@
+*{
+    transition: all .2s linear;
+}
+#ExamPic{
+    width: 31rem;
+    height: 20rem;
+    background-image: url(../../public/portofolio.jpg);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: color;
+}
+
+#ExamPic:hover{
+    background-color: rgba(0,0,0,.3);
+    color: rgba(0,0,0,1) !important;
+}
+#ExamPic #exampic-text{
+    opacity: 0;
+}
+#ExamPic:hover #exampic-text{
+    opacity: 1;
+}
+#exampic-text{
+    position: relative;
+    bottom: -9rem;
+    left: -2rem;
+}
+#exampic-text button{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+}
+#exampic-text button:hover{
+    color: rgb(90, 244, 255);
+}

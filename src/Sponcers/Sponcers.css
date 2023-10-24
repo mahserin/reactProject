@@ -1,0 +1,7 @@
+#Sponcers img{
+    width: 10rem;
+    filter: grayscale();
+}
+#Sponcers img:hover{
+    filter: none;
+}

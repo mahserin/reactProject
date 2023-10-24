@@ -1,0 +1,27 @@
+#Header{
+    height: 58rem;
+    background-image: url('./../../public/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0,0,0,.6);
+    background-blend-mode: color;
+    background-attachment: fixed;
+}
+#header-sec{
+padding-top: 15rem;
+}
+#header-text{
+    color: aliceblue;
+    font-size: x-large;
+    
+}
+#header-text span{
+    color: orange;
+}
+#headpack-parent{
+    margin-top: 4rem;
+    display: flex;
+    gap: 3rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}

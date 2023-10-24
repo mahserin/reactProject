@@ -1,0 +1,18 @@
+#FeatureOpt{
+    display: flex;
+    gap: 1rem;
+    
+
+}
+#FeatureOpt >svg{
+font-size: 6rem;
+    
+}
+#featureopt-text{
+    text-align: start;
+    margin: 0.25rem;
+
+}
+#featureopt-text *{
+    margin: 0px !important;
+}

@@ -1,0 +1,30 @@
+.Headpack{
+    width: 15rem;
+    height: 10rem;
+    border: grey solid 1px ;
+    transition: all .2s linear;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+
+}
+.Headpack:hover{
+    border: orange solid 1px ;
+}
+.Headpack img{
+    width: 30%;
+
+}
+.Headpack h4{
+    transition: all .2s linear;
+}
+.Headpack h4:hover{
+    color: orange;
+
+}
+.Headpack >svg{
+    font-size: 4rem;
+}

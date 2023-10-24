@@ -1,0 +1,27 @@
+
+#Counts > div{
+    display: flex;
+    width: 96rem;
+    margin:  5rem auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#count-image img{
+    width: 30rem;
+}
+#count-text{
+    width: 60rem;
+    height: 30rem;
+    
+}
+#countopt-par{
+    margin: 3rem 0;
+    height: inherit;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.CountOpt{
+    flex-basis: 50%;
+}

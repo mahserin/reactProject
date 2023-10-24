@@ -1,0 +1,32 @@
+#Team{
+    text-align: start;
+    width: 96rem;
+    margin: auto;
+    padding: 5rem 0 ;
+}
+#Team h5{
+    margin: 0;
+    position: relative; 
+    display: inline-block; 
+    color: grey;
+}
+
+#Team h5::after {
+    content: ""; 
+    position: absolute; 
+    right: 3rem;
+    top: .5rem;
+    width: 500%; 
+    height: 2px; 
+    background-color: orange; 
+  }
+
+  #Team > h2{
+    margin:   1rem 0 3rem 0 ;
+    font-size: xxx-large;
+  }
+  #teamOpt-par{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }

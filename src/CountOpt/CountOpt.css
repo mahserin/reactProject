@@ -1,0 +1,21 @@
+
+#count-num img{
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-block;
+
+}
+
+#count-num h1{
+    font-size: xxx-large;
+    vertical-align: top;
+    margin:  0 .25rem;
+    display: inline-block;
+}
+#count-text{
+    text-align: right;
+    margin: 0;
+}
+#count-text pre{
+    margin: 0;
+}

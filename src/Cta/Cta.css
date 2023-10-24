@@ -1,0 +1,34 @@
+#Cta{
+    background-image: url(../../public/download.jpg);
+    background-attachment: fixed;
+    background-color: rgba(0,0,0,.4);
+    background-blend-mode: color;
+    color: #fff;
+    padding:   3rem 0;
+}
+#cta-par{
+    width: 96rem;
+    margin: auto;
+
+
+}
+#cta-par > * {
+    margin: 1rem 0;
+}
+#cta-par p {
+    text-align: justify;
+}
+#cta-par button {
+    background-color: rgba(0,0,0,0);
+    border: solid #fff 2px;
+    color: #fff;
+    padding: 1rem;
+    border-radius: .5rem;
+    font-weight: bold;
+}
+#cta-par button:hover{
+    border: solid orange 2px;
+    background-color: orange;
+    color: #000;
+
+}

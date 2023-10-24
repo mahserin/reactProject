@@ -1,0 +1,16 @@
+.CallOpt{
+    display: flex;
+}
+.callopt-img{
+    background-color: orange;
+    padding: .4rem .4rem 0 .4rem;
+    border-radius: .6rem;
+}
+
+.callopt-img img{
+    width: 3rem;
+
+}
+.callopt-text{
+    margin-right: 1rem;
+}

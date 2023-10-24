@@ -1,0 +1,53 @@
+#About{
+    padding-top: 5rem;
+}
+#about-webanic{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    flex-wrap: wrap-reverse;
+
+}
+#webanic-text{
+width: 48rem;
+text-align: justify;
+}
+#webanic-pic{
+    width: 48rem;
+
+}
+#sponcers-par{
+    display: flex;
+    justify-content: center;
+    margin:  5rem 2rem;
+}
+#features-par{
+    display:flex ;
+    flex-wrap: wrap-reverse;
+    max-width: 98rem;
+    justify-content: space-between;
+    margin: 2rem auto;
+}
+@media screen and (max-width: 1319px) {
+    #features-par{
+        justify-content: center;
+
+
+  }
+}
+#features{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 41.25rem;
+    height: 25rem;
+}
+#features-pic{
+    width: 41.25rem;
+    background-image: url('./../../public/features.jpg');
+    height: 25rem;
+    background-position: center;
+    background-size: cover;
+}

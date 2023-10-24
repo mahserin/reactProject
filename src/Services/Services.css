@@ -1,0 +1,37 @@
+#Services{
+max-width: 98rem;
+margin: auto;
+padding-top: 7rem;
+text-align: start;
+}
+#Services h5{
+    margin: 0;
+    position: relative; /* Position relative is required for absolute positioning of the line */
+    display: inline-block; /* Makes sure the line only spans the text's width */
+    color: grey;
+    
+  
+}
+
+#Services h5::after {
+    content: ""; /* Empty content for the pseudo-element */
+    position: absolute; 
+    right: 3rem;
+    top: .5rem;
+    width: 500%; /* Make the line span the entire width of the container */
+    height: 2px; /* Set the height and color for the line */
+    background-color: orange; /* Change this to your desired line color */
+  }
+  #Services > h2{
+    margin:   1rem 0 3rem 0 ;
+    font-size: xxx-large;
+  }
+  #option-par{
+    justify-content: space-between;
+    row-gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+    
+    
+  }

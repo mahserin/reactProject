@@ -1,0 +1,56 @@
+#Example{
+    max-width: 96rem;
+    text-align: start;
+    margin: auto;
+    padding-top: 7rem;
+}
+#Example h5{
+    margin: 0;
+    position: relative; 
+    display: inline-block; 
+    color: grey;
+    
+  
+}
+
+#Example h5::after {
+    content: ""; 
+    position: absolute; 
+    right: 5rem;
+    top: .5rem;
+    width: 200%; 
+    height: 2px; 
+    background-color: orange; 
+  }
+  #Example > h2 {
+    margin:   1rem 0 3rem 0 ;
+    font-size: xxx-large;
+  }
+  #exampic-par{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.5rem;
+  }
+  #exbutt-par{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 3rem;
+  }
+  #exbutt-par button{
+    color: #777;
+    background-color: rgba(0,0,0,0);
+    border: none;
+    font-size: large;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: .5rem;
+
+  }
+#exbutt-par button:hover{
+  background-color: orange;
+  color: black;
+
+
+}
